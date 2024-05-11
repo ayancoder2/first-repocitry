@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+::-webkit-scrollbar{
+    display:none
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(https://external-preview.redd.it/zu8j06qS3STEroYnxTsGLxik0xUM7wVIn1Jsg-3PcHg.jpg?auto=webp&s=a5d03422529231cbd1f8758462bf820dfc11757f);
+    height: 105svh;
+    background-position: center;
+    background-size: max(100px 100vw);
+    width: 100%;
+    position:relative;
+    z-index: -10;
+}
+.page1>div,span{
+    z-index: 5;
+    position: relative;
+    color: #fff;
+}
+.main .wrapper{
+    height:105svh;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.681);
+    position:absolute;
+    top:0;
+}
+nav{
+    max-width: 95vw;
+    margin: auto;
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    height:64px;
+    padding: 50px;
+}
+nav image{
+    color:red;
+    width: 114px;
+    position:relative;
+    z-index:10;
+}
+nav button{
+    background-color: rgba(255, 0, 0, 0.897);
+    height: 50px;
+    width: 90px;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    font-weight: 200;
+}
+.main1{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    color:white;
+    gap: 23px;
+}
+.child{
+    font-size: 3.1vw;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+    text-align:center;
+}
+.second{
+    font-size:1.75vw;
+    font-weight:400;
+    text-align:center;
+}
+.third{
+    font-size:1.6vw;
+    font-weight:400;
+     text-align:center;   
+}
+.one{
+    height: 70px;
+    width:400px;
+    background-color: #110F0F;
+    color:#000;
+    border-radius: 5px;
+    border:1.5px white solid;
+    font-size: 20px;
+}
+.two{
+    height:70px;
+    width: 200px;
+    background-color:red;
+    color:white;
+    font-weight:200;
+    font-size: 29px;
+    font-family:g;
+    border-radius: 5px;
+    border:1.5px red solid;
+}
+.line{
+    height: 9px;
+    width:100%;
+    background-color:rgb(48, 44, 44);
+}
+.hero{
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Martel Sans', sans-serif;
+    margin-left: 200px; 
+}
+
+.zero{
+    color: white;
+    font-weight:400;
+    font-size: 28px;
+    font-family: 'Martel Sans', sans-serif;
+    margin-left: 100px;
+}
+.main22{
+    margin-left: 850px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    color: white;
+    max-width:70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.section img{
+    width:30vw;
+}
+.sectionimg {
+    position: relative;
+}
+.sectionimg video{
+     position:absolute;
+     top: 51px;
+     right: 0;
+     width: 89%;
+}
+.text1{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 28px;
+
+}
+.text2{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+.line2{
+    height: 9px;
+    width:100%;
+    background-color:rgb(48, 44, 44);
+}
+.text3{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 32px;
+    color: white;
+}
+.page3{
+    display: flex;
+    align-items: center;
+
+}
+.text4{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.line3{
+    height: 9px;
+    width: 100%;
+    background-color:rgb(48, 44, 44);
+}
+.text5{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    color: white;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.text6{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-left: 300px;
+}
+.line4{
+    height: 9px;
+    width: 100%;
+    background-color:rgb(48, 44, 44);
+}
+.text7{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    color: white;
+    padding-top: 90px;
+}
+.page5{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.text8{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.five{
+    display: flex;
+}
+.line5{
+    height: 9px;
+    width: 100%;
+    background-color:rgb(48, 44, 44);
+}
+.text9{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 48px;
+    color: white;
+    text-align:center;
+}
+.box{
+     display: flex;
+     background-color: #2d2d2d;
+     padding: 34px;
+     width: 100vw;
+     max-width: 75vw;
+     margin:  auto;
+     height: 8vh;
+     justify-content: space-between;
+     font-size: 25px;
+     font-family: 'Martel Sans', sans-serif;
+     font-size: 24px;
+     transition: all 0.5s ease-out;
+}
+.box:hover{
+    background-color: rgb(71, 69, 69);
+}
+.text10{
+    padding-top: 40px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.page7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.bar{
+    height: 8vh;
+    width: 20vw;
+    background-color: red;
+    color: white;
+    font-size: 21px;
+    border: 1.5 red solid;    
+}
+.searchbar{
+    height: 8vh;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.681);
+    color: white;
+    font-size: 20px;
+}
+.place{
+    display: flex;
+    justify-content: center;
+}
+.line7{
+    height: 9px;
+    width: 100%;
+    background-color:rgb(48, 44, 44);
+}
